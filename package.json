@@ -1,0 +1,30 @@
+{
+  "name": "bankapp",
+  "version": "1.0.0",
+  "description": "systems architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bank_App"
+  ],
+  "author": "Lilyflowr",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.10.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
